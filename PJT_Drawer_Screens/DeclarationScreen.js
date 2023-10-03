@@ -11,7 +11,7 @@ import { useNavigation } from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DATA=[
-  {id:"1",icon:"gift",title:"Gift Register",press:"Gift Register"},
+  {id:"1",icon:"gift",title:"Gift Register",press:""},
 ]
 
 export default function DeclarationScreen() {

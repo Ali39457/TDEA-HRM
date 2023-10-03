@@ -9,12 +9,12 @@ import axios from 'axios';
 const Width=Dimensions.get("screen").width;
 
 const DATA = [
-  {id: "1",title:"Attendance",press:"Attendance",icon:"address-card-o"},
+  {id: "1",title:"Attendance",press:"",icon:"address-card-o"},
   {id: "2",title:"Apply For Leave",press:"Apply Leave",icon:"list-alt"},
-  {id: "3",title:"Employee TORs",press:"Download TORs",icon:"file-o"},
+  {id: "3",title:"Employee TORs",press:"",icon:"file-o"},
   {id: "4",title:"Leave Status",press:"Leave Status",icon:"newspaper-o"},
-  {id: "5",title:"Salary Slips",press:"Salary Slip",icon:"clipboard"},
-  {id: "6",icon:"calendar-plus-o",title:"Time Approval",press:"Apply Time Approval"},,
+  {id: "5",title:"Salary Slips",press:"",icon:"clipboard"},
+  {id: "6",icon:"calendar-plus-o",title:"Time Approval",press:""},,
   ];
 
 export default function EmpDashboard({navigation}) {

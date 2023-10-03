@@ -1,0 +1,4 @@
+#Tue Sep 26 15:38:33 PKT 2023
+base.0=E\:\\React Native\\HRM_LAUNCH\\android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

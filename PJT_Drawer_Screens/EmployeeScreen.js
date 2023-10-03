@@ -12,9 +12,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DATA=[
 
-  {id:"1",icon:"address-card-o",title:"Attendance",press:"Attendance"},
-  {id:"2",icon:"clipboard",title:"Salary Slip",press:"Salary Slip"},
-  {id:"3",icon:"file-o",title:"Employee TORs",press:"Download TORs"},
+  {id:"1",icon:"address-card-o",title:"Attendance",press:""},
+  {id:"2",icon:"clipboard",title:"Salary Slip",press:""},
+  {id:"3",icon:"file-o",title:"Employee TORs",press:""},
 ]
 
 export default function EmployeeScreen({navigation}) {

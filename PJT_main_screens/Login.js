@@ -199,7 +199,9 @@ const style= StyleSheet.create({
       justifyContent:"space-around",
       marginTop:Height-390,
       position:"absolute",
-      padding:23,
+      paddingTop:10,
+      paddingLeft:25,
+      paddingRight:25
     },
     TextInput1:{
       width:'100%',
@@ -244,7 +246,7 @@ const style= StyleSheet.create({
     height:38,
     alignItems:"center",
     top:Height-360,
-    marginTop:30,
+    marginTop:20,
   },
   BtnLoginText:{
     fontSize:15,
@@ -253,7 +255,7 @@ const style= StyleSheet.create({
   },
   TextForgotBtn:{
     top:Height-295,
-    marginTop:20,
+    marginTop:10,
     position:'absolute',
   },
   TextForgot:{

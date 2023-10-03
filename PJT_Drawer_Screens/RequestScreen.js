@@ -12,9 +12,9 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DATA=[
 
-  {id:"1",icon:"calendar-plus-o",title:"Time Approval",press:"Apply Time Approval"},
+  {id:"1",icon:"calendar-plus-o",title:"Time Approval",press:""},
   {id:"2",icon:"list-alt",title:"Apply for Leave",press:"Apply Leave"},
-  {id:"3",icon:"desktop",title:"Work from Home/Field",press:"Work From Home"},
+  {id:"3",icon:"desktop",title:"Work from Home/Field",press:""},
 ]
 
 export default function RequestScreen({navigation}) {
@@ -71,6 +71,7 @@ export const Request=()=>{
 
   const navigation = useNavigation();
   const [Role,setRole]=useState('');
+  const [SRole,setSRole]=useState('');
 
     //------------------------ useEffect-------------------------//
  useEffect(()=>{
@@ -85,6 +86,7 @@ export const Request=()=>{
       await AsyncStorage.getItem("@ApiData").then(value=>{if(value!=null){
         var user=JSON.parse(value)
        setRole(user.data.role)
+       setSRole(user.data.secondary_role)
       }})
       
     } catch (e) {
@@ -132,7 +134,7 @@ export const Request=()=>{
    
     <FlatList listKey="1" style={styles.FlatList}
     data={DATA}
-    renderItem={Role==="Admin" ? renderItem2:renderItem1}
+    renderItem={Role==="Admin" || Role==="SHR" || SRole==="Supervisor" ? renderItem2:renderItem1}
     />
   )
 }

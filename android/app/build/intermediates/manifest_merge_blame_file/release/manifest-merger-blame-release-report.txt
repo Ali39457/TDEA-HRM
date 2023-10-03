@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hrm"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:5:5-81
+12-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->[:react-native-community_netinfo] E:\React Native\HRM_LAUNCH\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:5-79
+14-->[:react-native-community_netinfo] E:\React Native\HRM_LAUNCH\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required to access Google Play Licensing -->
+15-->[:react-native-community_netinfo] E:\React Native\HRM_LAUNCH\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-76
+15-->[:react-native-community_netinfo] E:\React Native\HRM_LAUNCH\node_modules\@react-native-community\netinfo\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-73
+16    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+16-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-73
+16-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:22-70
+17    <!--
+18         Required to keep CPU alive while downloading files
+19        (NOT to keep screen awake)
+20    -->
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:5-68
+21-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:22-65
+22
+23    <application
+23-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:9:5-27:19
+24        android:name="com.hrm.MainApplication"
+24-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:10:7-38
+25        android:allowBackup="false"
+25-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:14:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] C:\Users\Backup\.gradle\caches\transforms-3\540dbfb90b248d7b59cd154497c15f99\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+27        android:icon="@mipmap/ic_launcher"
+27-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:12:7-41
+28        android:label="@string/app_name"
+28-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:11:7-39
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:13:7-52
+30        android:theme="@style/AppTheme" >
+30-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:15:7-38
+31        <activity
+31-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:16:7-26:18
+32            android:name="com.hrm.MainActivity"
+32-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:17:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:19:9-86
+34            android:label="@string/app_name"
+34-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:18:9-41
+35            android:launchMode="singleTask" >
+35-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:20:9-40
+36            <intent-filter>
+36-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:22:9-25:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:23:13-65
+37-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:23:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:24:13-73
+39-->E:\React Native\HRM_LAUNCH\android\app\src\main\AndroidManifest.xml:24:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <provider
+43-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-20:20
+44            android:name="androidx.core.content.FileProvider"
+44-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-62
+45            android:authorities="com.hrm.provider"
+45-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-60
+46            android:exported="false"
+46-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-37
+47            android:grantUriPermissions="true" >
+47-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:13-47
+48            <meta-data
+48-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-19:58
+49                android:name="android.support.FILE_PROVIDER_PATHS"
+49-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-67
+50                android:resource="@xml/provider_paths" />
+50-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:17-55
+51        </provider>
+52
+53        <activity
+53-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-24:72
+54            android:name="com.yalantis.ucrop.UCropActivity"
+54-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:13-60
+55            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+55-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:24:13-69
+56
+57        <provider
+57-->[:react-native-webview] E:\React Native\HRM_LAUNCH\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+58            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+58-->[:react-native-webview] E:\React Native\HRM_LAUNCH\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-83
+59            android:authorities="com.hrm.fileprovider"
+59-->[:react-native-webview] E:\React Native\HRM_LAUNCH\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-64
+60            android:exported="false"
+60-->[:react-native-webview] E:\React Native\HRM_LAUNCH\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+61            android:grantUriPermissions="true" >
+61-->[:react-native-webview] E:\React Native\HRM_LAUNCH\node_modules\react-native-webview\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+62            <meta-data
+62-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-19:58
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-67
+64                android:resource="@xml/file_provider_paths" />
+64-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:17-55
+65        </provider>
+66        <provider
+66-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:9-42:20
+67            android:name="com.RNFetchBlob.Utils.FileProvider"
+67-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-62
+68            android:authorities="com.hrm.provider"
+68-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:13-60
+69            android:exported="false"
+69-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-37
+70            android:grantUriPermissions="true" >
+70-->[:rn-fetch-blob] E:\React Native\HRM_LAUNCH\node_modules\rn-fetch-blob\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-47
+71            <meta-data
+71-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:13-19:58
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:17-67
+73                android:resource="@xml/provider_paths" />
+73-->[:react-native-image-crop-picker] E:\React Native\HRM_LAUNCH\node_modules\react-native-image-crop-picker\android\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:17-55
+74        </provider>
+75    </application>
+76
+77</manifest>

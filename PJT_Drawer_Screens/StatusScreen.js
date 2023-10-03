@@ -11,9 +11,9 @@ import { useNavigation } from '@react-navigation/native'
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const DATA=[
-  {id:"1",icon:"calendar-plus-o",title:"Time Approval Status",press:"Time Approval Status"},
+  {id:"1",icon:"calendar-plus-o",title:"Time Approval Status",press:""},
   {id:"2",icon:"newspaper-o",title:"Leave Status",press:"Leave Status"},
-  {id:"3",icon:"desktop",title:"Work from Home/Field Status",press:"Work from Home/Field Status"},
+  {id:"3",icon:"desktop",title:"Work from Home/Field Status",press:""},
 ]
 
 export default function StatusScreen({navigation}) {
