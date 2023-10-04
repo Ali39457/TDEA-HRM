@@ -127,10 +127,11 @@ const style= StyleSheet.create({
 footer:{
   justifyContent:"center",
   alignItems:"center",
-  marginTop:Height-500
+  marginTop:Height-500,
+  width:"100%"
 },
 footerText:{
-  fontSize:12,
+  fontSize:11,
   fontFamily:"Montserrat-Regular",
 }
 
